@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SfmlGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SfmlGame">
+				<Option output="C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/SfmlGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Libraries/SFML/MinGW/SFML-2.4.2/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 SfmlGame"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SfmlGame/fast">
+				<Option output="C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/SfmlGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Libraries/SFML/MinGW/SFML-2.4.2/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 SfmlGame/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/sebas/CLionProjects/SfmlGame/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/Drawables/Drawable.cpp">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/Drawables/Drawable.h">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/Drawables/Entities.cpp">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/Drawables/Entities.h">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/Game.cpp">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/Game.h">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/States/StateBase.h">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/States/StateGame.cpp">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/States/StateGame.h">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/Source/main.cpp">
+			<Option target="SfmlGame"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/sebas/CLionProjects/SfmlGame/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
